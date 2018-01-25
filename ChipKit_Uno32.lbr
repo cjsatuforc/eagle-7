@@ -264,20 +264,44 @@
 <pin name="A3" x="58.42" y="-2.54" visible="pin" length="middle" rot="R90"/>
 <pin name="A4" x="60.96" y="-2.54" visible="pin" length="middle" rot="R90"/>
 <pin name="A5" x="63.5" y="-2.54" visible="pin" length="middle" rot="R90"/>
-<pin name="A6" x="50.8" y="17.78" visible="pin" length="middle" rot="R270"/>
-<pin name="A7" x="53.34" y="17.78" visible="pin" length="middle" rot="R270"/>
-<pin name="A8" x="55.88" y="17.78" visible="pin" length="middle" rot="R270"/>
-<pin name="A9" x="58.42" y="17.78" visible="pin" length="middle" rot="R270"/>
-<pin name="A10" x="60.96" y="17.78" visible="pin" length="middle" rot="R270"/>
-<pin name="A11" x="63.5" y="17.78" visible="pin" length="middle" rot="R270"/>
-<pin name="D41" x="20.32" y="33.02" visible="pin" length="middle" rot="R90"/>
-<pin name="D40" x="22.86" y="33.02" visible="pin" length="middle" rot="R90"/>
-<pin name="D39" x="25.4" y="33.02" visible="pin" length="middle" rot="R90"/>
-<pin name="D38" x="27.94" y="33.02" visible="pin" length="middle" rot="R90"/>
-<pin name="D37" x="30.48" y="33.02" visible="pin" length="middle" rot="R90"/>
-<pin name="D36" x="33.02" y="33.02" visible="pin" length="middle" rot="R90"/>
-<pin name="D35" x="35.56" y="33.02" visible="pin" length="middle" rot="R90"/>
-<pin name="D34" x="38.1" y="33.02" visible="pin" length="middle" rot="R90"/>
+<pin name="A6" x="50.8" y="15.24" visible="pin" length="short" rot="R270"/>
+<pin name="A7" x="53.34" y="15.24" visible="pin" length="short" rot="R270"/>
+<pin name="A8" x="55.88" y="15.24" visible="pin" length="short" rot="R270"/>
+<pin name="A9" x="58.42" y="15.24" visible="pin" length="short" rot="R270"/>
+<pin name="A10" x="60.96" y="15.24" visible="pin" length="short" rot="R270"/>
+<pin name="A11" x="63.5" y="15.24" visible="pin" length="short" rot="R270"/>
+<pin name="D41" x="20.32" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D40" x="22.86" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D39" x="25.4" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D38" x="27.94" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D37" x="30.48" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D36" x="33.02" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D35" x="35.56" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D34" x="38.1" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D16" x="20.32" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D15" x="22.86" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D14" x="25.4" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D13" x="27.94" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D12" x="30.48" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D11" x="33.02" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D10" x="35.56" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D9" x="38.1" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D33" x="45.72" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D32" x="48.26" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D31" x="50.8" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D30" x="53.34" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D29" x="55.88" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D28" x="58.42" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D27" x="60.96" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D26" x="63.5" y="35.56" visible="pin" length="short" rot="R90"/>
+<pin name="D8" x="45.72" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D7" x="48.26" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D6" x="50.8" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D5" x="53.34" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D4" x="55.88" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D3" x="58.42" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D2" x="60.96" y="55.88" visible="pin" length="middle" rot="R270"/>
+<pin name="D1" x="63.5" y="55.88" visible="pin" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -302,14 +326,38 @@
 <connect gate="G$1" pin="A7" pad="P$14"/>
 <connect gate="G$1" pin="A8" pad="P$15"/>
 <connect gate="G$1" pin="A9" pad="P$16"/>
+<connect gate="G$1" pin="D1" pad="P$50"/>
+<connect gate="G$1" pin="D10" pad="P$33"/>
+<connect gate="G$1" pin="D11" pad="P$32"/>
+<connect gate="G$1" pin="D12" pad="P$31"/>
+<connect gate="G$1" pin="D13" pad="P$30"/>
+<connect gate="G$1" pin="D14" pad="P$29"/>
+<connect gate="G$1" pin="D15" pad="P$28"/>
+<connect gate="G$1" pin="D16" pad="P$27"/>
+<connect gate="G$1" pin="D2" pad="P$49"/>
+<connect gate="G$1" pin="D26" pad="P$42"/>
+<connect gate="G$1" pin="D27" pad="P$41"/>
+<connect gate="G$1" pin="D28" pad="P$40"/>
+<connect gate="G$1" pin="D29" pad="P$39"/>
+<connect gate="G$1" pin="D3" pad="P$48"/>
+<connect gate="G$1" pin="D30" pad="P$38"/>
+<connect gate="G$1" pin="D31" pad="P$37"/>
+<connect gate="G$1" pin="D32" pad="P$36"/>
+<connect gate="G$1" pin="D33" pad="P$35"/>
 <connect gate="G$1" pin="D34" pad="P$26"/>
 <connect gate="G$1" pin="D35" pad="P$25"/>
 <connect gate="G$1" pin="D36" pad="P$24"/>
 <connect gate="G$1" pin="D37" pad="P$23"/>
 <connect gate="G$1" pin="D38" pad="P$22"/>
 <connect gate="G$1" pin="D39" pad="P$21"/>
+<connect gate="G$1" pin="D4" pad="P$47"/>
 <connect gate="G$1" pin="D40" pad="P$20"/>
 <connect gate="G$1" pin="D41" pad="P$19"/>
+<connect gate="G$1" pin="D5" pad="P$46"/>
+<connect gate="G$1" pin="D6" pad="P$45"/>
+<connect gate="G$1" pin="D7" pad="P$44"/>
+<connect gate="G$1" pin="D8" pad="P$43"/>
+<connect gate="G$1" pin="D9" pad="P$34"/>
 <connect gate="G$1" pin="GND1" pad="P$4"/>
 <connect gate="G$1" pin="GND2" pad="P$5"/>
 <connect gate="G$1" pin="RESET" pad="P$1"/>
