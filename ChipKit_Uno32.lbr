@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -160,12 +160,12 @@
 <library>
 <packages>
 <package name="CHIPKIT_UNO32_BACKPACK">
-<wire x1="0" y1="53.34" x2="21.59" y2="53.34" width="0.127" layer="51"/>
+<wire x1="12.7" y1="53.34" x2="21.59" y2="53.34" width="0.127" layer="51"/>
 <wire x1="21.59" y1="53.34" x2="68.58" y2="53.34" width="0.127" layer="51"/>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="45.72" width="0.127" layer="51"/>
 <wire x1="68.58" y1="45.72" x2="68.58" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="30.48" y2="0" width="0.127" layer="51"/>
+<wire x1="12.7" y1="53.34" x2="12.7" y2="0" width="0.127" layer="51"/>
+<wire x1="12.7" y1="0" x2="30.48" y2="0" width="0.127" layer="51"/>
 <hole x="15.24" y="50.8" drill="3.2004"/>
 <hole x="66.04" y="35.56" drill="3.2004"/>
 <hole x="66.04" y="7.62" drill="3.2004"/>
@@ -235,12 +235,6 @@
 <text x="40.64" y="43.18" size="1.27" layer="51">digital</text>
 <text x="54.61" y="8.89" size="1.27" layer="51">analog</text>
 <text x="36.83" y="6.35" size="1.27" layer="51">power</text>
-<wire x1="0" y1="3.05" x2="-1.52" y2="3.05" width="0.127" layer="21"/>
-<wire x1="-1.52" y1="3.05" x2="-1.52" y2="12.2" width="0.127" layer="21"/>
-<wire x1="-1.52" y1="12.2" x2="0" y2="12.2" width="0.127" layer="21"/>
-<wire x1="0" y1="42.16" x2="-0.51" y2="42.16" width="0.127" layer="21"/>
-<wire x1="-0.51" y1="42.16" x2="-0.52" y2="34.04" width="0.127" layer="21"/>
-<wire x1="-0.52" y1="34.04" x2="0" y2="34.04" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
